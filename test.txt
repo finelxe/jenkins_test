@@ -1,3 +1,4 @@
+###################################
 完美解决github访问速度慢
 修改host
 其实 git clone 或者 git push 特别慢，并不是因为 http://github.com 的这个域名被限制了。而是 http://github.global.ssl.fastly.Net 这个域名被限制了。那么首先查到这个域名的ip，然后在hosts文件中进行 ip -> 域名 映射就可以了。
@@ -16,3 +17,4 @@ mac/linux系统的hosts文件的位置如下：/etc/hosts
 
 151.101.113.194 github.global.ssl.fastly.net
 192.30.253.112 github.com
+######################################
